@@ -9,18 +9,24 @@
     <meta name="description" content="Описание страницы...">
 </head>
 <body>
+    <div class="logo-img"><img src="images/img-svg/logo-img.svg" alt="Картинка логотипа"></div>
     <div class="wrapper">
       <div class="cards">
         <div class="card-search">
           <div class="card-search__container">
-            <div class="card-searc__header"><strong>Найдём номера под ваши пожелания</strong></div>
-            <form action="" class="form-search">
-              <div class=""><div class="form-search__arrival"><div><strong></strong></div></div></div>
-            </form>
-            прибытие
-            выезд
-            гости
-            подобрать номер
+            <div class="card-search__header"><p>Найдём номера под ваши пожелания</p></div>
+            <form action="" class="card-search__form form-search">
+              <div class="form-search__arrival">
+                <div><strong>прибытие</strong></div>
+                <input type="date">
+                <div><strong>выезд</strong></div>
+                <input type="date">
+                <div><strong>гости</strong></div>
+                <input type="text">
+              </div>
+              <button type="submit" class="button">подобрать номер</button>
+            </form>           
+            
           </div>
         </div>
         <div class="card__amount"></div>
